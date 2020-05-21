@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pbba:
+    build:
+      context: .
+    ports:
+      - "8123:5000"
